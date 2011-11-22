@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+    version="2.0" 
+    xmlns="http://java.sun.com/xml/ns/persistence">
+
+<!-- Primary Usage: Lists all entities in the application and names the persistence unit. -->
+    
+    
+    <persistence-unit name="optical_shop" transaction-type="RESOURCE_LOCAL">
+        <class>greenwood.patients.model.Patient</class>
+         <class>greenwood.orders.model.Order</class> 
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/> 
+            <!-- <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/> -->
+            
+            <!-- Automatically created by Derby driver. -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/fuckItDB;create=true"/> 
+            <!-- <property name="javax.persistence.jdbc.url" value="jdbc:derby:/home/databases/sampleDB;create=true"/> -->
+            <property name="javax.persistence.jdbc.user" value="admin"/>
+            <property name="javax.persistence.jdbc.password" value="admin" />
+            
+            <!-- EclipseLink should create the database schema automatically. -->
+            <!-- Configure database to be created on startup if not already existing. -->
+            <!-- <property name="eclipselink.ddl-generation" value="create-tables"/> -->  
+            
+            <!-- To drop and replace existing schema this can be used. -->   
+             <!-- <property name="eclipselink.ddl-generation" value="drop-and-create-tables" /> -->
+            
+            <!-- To see the SQL generated for the the databases set 
+                 eclipselink.ddl-generation.output-mode value from "database" to 
+                 "sql-script" or "both". Two files will get generated 'createDDL.jdbc' 
+                 and 'dropDDL.jdbc'  -->
+           <property name="eclipselink.ddl-gereration.output-mode" value="both"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

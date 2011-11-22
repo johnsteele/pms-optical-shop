@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-6-sun-1.6.0.24"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.jface_3.6.2.M20110210-1200.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.ui.workbench_3.6.2.M20110210-1200.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.equinox.common_3.6.0.v20100503.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.commands_3.6.0.I20100512-1500.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.ui.forms_3.5.2.r36_v20100702.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.source_3.5.0.v20100524.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.webapp_3.5.3.r36_20101130.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help_3.5.0.v20100524.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.appserver.source_3.1.400.v20100427.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.appserver_3.1.400.v20100427.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.base_3.5.3.v201102101200.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.help.ui_3.5.3.r36_20101116.jar" sourcepath="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.ui_3.6.2.M20110203-1100.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.jobs_3.5.1.R36x_v20100824.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.runtime_3.6.0.v20100505.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.osgi_3.6.2.R36x_v20110210.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.databinding.observable_1.3.0.I20100601-0800.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.jface.databinding_1.4.0.I20100601-0800.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.databinding_1.3.100.I20100601-0800.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.core.databinding.beans_1.2.100.I20100601-0800.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.swt_3.6.2.v3659c.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_3.6.2.v3659b.jar"/>
+	<classpathentry kind="lib" path="/home/johnsteele/eclipse_rcp_plugin_dev/eclipse/plugins/org.eclipse.swt.gtk.linux.x86.source_3.6.2.v3659b.jar"/>
+	<classpathentry kind="lib" path="lib/derby.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence_2.0.3.v201010191057.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="lib/derbyclient.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
